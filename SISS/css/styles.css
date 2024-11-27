@@ -1,0 +1,85 @@
+body {
+    background-color: #e9ecef;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #007bff; /* Primary color for the navbar */
+}
+
+.navbar-brand {
+    color: #333 !important; /* White color for the brand name */
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #666 !important; /* White color for the nav links */
+    margin-right: 15px; /* Space between nav links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffd700 !important; /* Gold color on hover */
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #343a40;
+}
+
+.card {
+    border-radius: 0.5rem;
+    height: 150px; /* Set a fixed height */
+    display: flex; /* Use flexbox to center content */
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center;
+}
+
+.card-body {
+    display: flex; /* Use flexbox in the card body */
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    height: 100%; /* Make the card body take the full height */
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 2rem; /* Adjust font size for better visibility */
+    margin: 0; /* Remove default margin */
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table th {
+    background-color: #007bff; /* Match table header with navbar */
+    color: white;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+@media (max-width: 576px) {
+    .form-section, .table-section {
+        margin-bottom: 20px;
+    }
+}
